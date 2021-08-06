@@ -3,7 +3,8 @@ import Header from '../Components/Header'
 const Login = () => {
 
     return (
-        <div><Header props="Login Page"></Header>
+        <div>
+        <Header props="Login Page"></Header>
             <br></br>
             <form action="/HomeInventory">
             <label>Username:</label>
