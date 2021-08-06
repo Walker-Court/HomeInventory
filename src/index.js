@@ -1,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './Pages/App'
+
+
+
+ReactDOM.render(
+  <App></App>
+  ,
+  document.getElementById('root')
+);
+
+
