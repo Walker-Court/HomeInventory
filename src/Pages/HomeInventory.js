@@ -20,9 +20,12 @@ import '../Styles/Styles.css'
 
     const newItems = {...addItem};
     newItems[formName] = formValue;
+    console.log(newItems);
     setAddItem(newItems);
    };
+
   const size = item.length;
+
    const onSubmit = (e) =>{
      e.preventDefault();
 
@@ -43,7 +46,6 @@ import '../Styles/Styles.css'
                   <Header props="HomeInventory"></Header>
                   <HyperLinks></HyperLinks>
               </div>
-
               <div className="tables">
               <h2>Table</h2>
                 <table>

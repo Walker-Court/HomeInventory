@@ -13,7 +13,7 @@ export default function App() {
         </Route>
           <Route path="/Admin">
             <Admin />
-          </Route>
+        </Route>
           <Route path="/HomeInventory">
             <HomeInventory />
           </Route>          

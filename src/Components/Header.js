@@ -5,7 +5,6 @@ const Header = ({props}) => {
     return (
         <div>
             <header>{header}</header>
-            
         </div>
     )
 }
